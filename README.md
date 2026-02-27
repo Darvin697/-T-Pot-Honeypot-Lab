@@ -1,11 +1,6 @@
 # 🍯 T-Pot Honeypot Lab
 
-<img src="https://img.shields.io/badge/-T--Pot-FF6600?&style=for-the-badge&logoColor=white" />
-<img src="https://img.shields.io/badge/-Docker-2496ED?&style=for-the-badge&logo=docker&logoColor=white" />
-<img src="https://img.shields.io/badge/-Elastic_Stack-005571?&style=for-the-badge&logo=elastic&logoColor=white" />
-<img src="https://img.shields.io/badge/-Kibana-E8478B?&style=for-the-badge&logo=kibana&logoColor=white" />
-<img src="https://img.shields.io/badge/-Suricata-EF3B2D?&style=for-the-badge&logo=suricata&logoColor=white" />
-<img src="https://img.shields.io/badge/-Linux-FCC624?&style=for-the-badge&logo=linux&logoColor=black" />
+<img src="https://img.shields.io/badge/-T--Pot-FF6600?&style=for-the-badge&logoColor=white" /><img src="https://img.shields.io/badge/-Docker-2496ED?&style=for-the-badge&logo=docker&logoColor=white" /><img src="https://img.shields.io/badge/-Elastic_Stack-005571?&style=for-the-badge&logo=elastic&logoColor=white" /><img src="https://img.shields.io/badge/-Kibana-E8478B?&style=for-the-badge&logo=kibana&logoColor=white" /><img src="https://img.shields.io/badge/-Suricata-EF3B2D?&style=for-the-badge&logo=suricata&logoColor=white" /><img src="https://img.shields.io/badge/-Linux-FCC624?&style=for-the-badge&logo=linux&logoColor=black" />
 
 ---
 
@@ -134,13 +129,13 @@ Once T-Pot is running and exposed to the internet, attack data begins flowing in
 ## 📸 Screenshots
 
 ### T-Pot Landing Page
-![T-Pot Landing Page](screenshots/tpot-landing-page.png)
+![T-Pot Landing Page](https://github.com/Darvin697/-T-Pot-Honeypot-Lab/blob/main/Screenshots/tpot-web-gui.png)
 
 ### Kibana Dashboard
-![Kibana Dashboard](screenshots/kibana-dashboard.png)
+![Kibana Dashboard](https://github.com/Darvin697/-T-Pot-Honeypot-Lab/blob/main/Screenshots/kibana_a.png)
 
 ### Attack Map
-![Attack Map](screenshots/attack-map.png)
+![Attack Map](https://github.com/Darvin697/-T-Pot-Honeypot-Lab/blob/main/Screenshots/tpot-attack-map.png)
 
 ---
 
