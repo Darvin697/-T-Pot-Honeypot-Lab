@@ -1,6 +1,8 @@
 # 🍯 T-Pot Honeypot Lab
 
-<img src="https://img.shields.io/badge/-T--Pot-FF6600?&style=for-the-badge&logoColor=white" /> <img src="https://img.shields.io/badge/-Docker-2496ED?&style=for-the-badge&logo=docker&logoColor=white" /> <img src="https://img.shields.io/badge/-Elastic_Stack-005571?&style=for-the-badge&logo=elastic&logoColor=white" />
+<img src="https://img.shields.io/badge/-T--Pot-FF6600?&style=for-the-badge&logoColor=white" />
+<img src="https://img.shields.io/badge/-Docker-2496ED?&style=for-the-badge&logo=docker&logoColor=white" />
+<img src="https://img.shields.io/badge/-Elastic_Stack-005571?&style=for-the-badge&logo=elastic&logoColor=white" />
 <img src="https://img.shields.io/badge/-Kibana-E8478B?&style=for-the-badge&logo=kibana&logoColor=white" />
 <img src="https://img.shields.io/badge/-Suricata-EF3B2D?&style=for-the-badge&logo=suricata&logoColor=white" />
 <img src="https://img.shields.io/badge/-Linux-FCC624?&style=for-the-badge&logo=linux&logoColor=black" />
@@ -9,9 +11,11 @@
 
 ## 📖 Overview
 
-This project documents the setup, configuration, and analysis of a **T-Pot Honeypot** deployed on a cloud virtual machine. T-Pot is an all-in-one, multi-honeypot platform developed by Deutsche Telekom Security, combining 20+ honeypot daemons with the Elastic Stack for real-time visualization and threat intelligence.
+This project documents the setup, configuration, and analysis of a **T-Pot Honeypot** deployed on a **Linode** cloud virtual machine at IP `172.232.115.167`. T-Pot is an all-in-one, multi-honeypot platform developed by Deutsche Telekom Security, combining 20+ honeypot daemons with the Elastic Stack for real-time visualization and threat intelligence.
 
 The goal of this lab is to expose a decoy system to the internet, capture live attack data, and analyze attacker behavior — including brute force attempts, malware drops, vulnerability exploitation, and port scanning — in a safe, controlled environment.
+
+> ⚠️ **Note:** This server has been taken down. All screenshots and findings below were captured during the active deployment period.
 
 ---
 
@@ -58,8 +62,8 @@ The goal of this lab is to expose a decoy system to the internet, capture live a
 
 ## 🚀 Installation & Setup
 
-### 1. Provision a Cloud VM
-Spin up a VM (e.g., Vultr, AWS, DigitalOcean) running a minimal **Debian/Ubuntu** installation with SSH enabled.
+### 1. Provision a Cloud VM (Linode)
+Spin up a **Linode** instance running a minimal **Debian/Ubuntu** installation with SSH enabled. This deployment used a Linode shared CPU instance at IP `172.232.115.167`.
 
 ### 2. Configure Firewall Rules
 Before installing, temporarily restrict inbound access to your IP only via SSH. After installation, open all TCP/UDP ports (1–64000) to allow attack traffic in, while keeping management ports (`>64000`) restricted to trusted IPs only.
@@ -127,6 +131,19 @@ Once T-Pot is running and exposed to the internet, attack data begins flowing in
 
 ---
 
+## 📸 Screenshots
+
+### T-Pot Landing Page
+![T-Pot Landing Page](screenshots/tpot-landing-page.png)
+
+### Kibana Dashboard
+![Kibana Dashboard](screenshots/kibana-dashboard.png)
+
+### Attack Map
+![Attack Map](screenshots/attack-map.png)
+
+---
+
 ## 🔍 Key Findings
 
 > *(Update this section with your own observations after running the honeypot)*
@@ -151,7 +168,7 @@ Logs are retained for **30 days** by default. Elasticsearch indices follow the T
 
 ## ⚠️ Disclaimer
 
-> This honeypot is intentionally exposed to malicious traffic for research and educational purposes. **You are solely responsible** for the deployment and operation of T-Pot in your environment. Never run a honeypot on a network containing sensitive systems or data. A system compromise can never be fully ruled out.
+> This honeypot was intentionally exposed to malicious traffic for research and educational purposes only. The server hosted on **Linode** at IP `172.232.115.167` has been **permanently taken down** and is no longer active. All data, screenshots, and findings presented in this repository were collected during the active deployment window. **Never run a honeypot on a network containing sensitive systems or data.**
 
 ---
 
