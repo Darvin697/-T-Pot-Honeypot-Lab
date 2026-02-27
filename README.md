@@ -1,8 +1,6 @@
 # 🍯 T-Pot Honeypot Lab
 
-<img src="https://img.shields.io/badge/-T--Pot-FF6600?&style=for-the-badge&logoColor=white" />
-<img src="https://img.shields.io/badge/-Docker-2496ED?&style=for-the-badge&logo=docker&logoColor=white" />
-<img src="https://img.shields.io/badge/-Elastic_Stack-005571?&style=for-the-badge&logo=elastic&logoColor=white" />
+<img src="https://img.shields.io/badge/-T--Pot-FF6600?&style=for-the-badge&logoColor=white" /> <img src="https://img.shields.io/badge/-Docker-2496ED?&style=for-the-badge&logo=docker&logoColor=white" /> <img src="https://img.shields.io/badge/-Elastic_Stack-005571?&style=for-the-badge&logo=elastic&logoColor=white" />
 <img src="https://img.shields.io/badge/-Kibana-E8478B?&style=for-the-badge&logo=kibana&logoColor=white" />
 <img src="https://img.shields.io/badge/-Suricata-EF3B2D?&style=for-the-badge&logo=suricata&logoColor=white" />
 <img src="https://img.shields.io/badge/-Linux-FCC624?&style=for-the-badge&logo=linux&logoColor=black" />
